@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイトル</title>
+    <meta name="description" content="説明文">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/destyle.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/b74d711bf6.js" crossorigin="anonymous"></script>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header_wrapper">
+        <div>
+            <h1>
+                <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            </h1>
+        </div>
+        <div>
+            <nav>
+                <ul class="nav_container">
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- メインビジュアル -->
+        <section class="main_visual">
+            <div class="main_visual_inner">
+                <img src="./images/mainvisual02.png" alt="">
+                <!-- <p class="jost_font">My Work<br>Portfolio</p> -->
+            </div>
+        </section>
+        <!-- profile -->
+        <section class="common_wrapper">
+            <h2 id="profile" class="show slide-bottom jost_font">Profile</h2>
+            <div class="profile_container">
+                <div class="profile_box">
+                    <img src="./images/profile.png" alt="">
+                </div>
+                <div class="profile_box_2">
+                    <div class="profile_desc">
+                        <!-- <h3 class="name_desc">text</h3> -->
+                        <p>2018年にWeb広告代理店に入社、以来SEOコンサルをメインに従事しています。<br>主にサイトの内部施策、コンテンツマーケティング、オウンドメディア運営を担当。<br>現在はWebデザインにも取り組み始め、主にHTML/CSSでのWebサイト制作を勉強中です。<br>
+                            <i class="fas fa-tag"></i>
+                            <a class="wrapper_link" href="https://twitter.com/Blue321May" target="blank">　Xアカウント</a>
+                        </p>
+                    </div>
+                    <h3 class="career_desc jost_font">Career</h3>
+                    <div class="profile_desc">
+                        <div class="profile_desc_container">
+                            <p class="date">2016.11～2018.03</p>
+                            <p><span>Web広告代理店にてインターンシップ(学生時代)</span></p>
+                        </div>
+                        <div class="profile_desc_container">
+                            <p class="date">2018.04～現在</p>
+                            <p><span>インターンシップをしていたWeb広告代理店に入社。主にSEO業務を担当中。</span></p>
+                        </div>
+                        <div class="profile_desc_container">
+                            <p class="date">2023.12～2024.03</p>
+                            <p><span>社内リスキリング研修にてWebデザインを学ぶ（主にHTML/CSS）</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skill -->
+        <section class="common_wrapper">
+            <h2 id="skill" class="show slide-bottom jost_font">Skill</h2>
+            <div class="skill_container">
+                <div class="skill_box">
+                    <div class="skill_box_heading">
+                        <i class="fas fa-chart-line" aria-hidden="true"></i>
+                        <h3 class="jost_font">SEO</h3>
+                    </div>
+                    <p>主にSEO内部施策のコンサルや、制作会社とのディレクション業務を担当しています。特にコンテンツSEOが得意です。
+                        Webサイトの現状分析、課題抽出、改善施策のご提案まで。</p>
+                    <dl class="skill_box_point">
+                        <dt>SEO</dt>
+                        <dd>歴5年　★★★☆☆</dd>
+                        <dt>ディレクション</dt>
+                        <dd>歴4年　★★★☆☆</dd>
+                    </dl>
+                </div>
+                <div class="skill_box">
+                    <div class="skill_box_heading">
+                        <i class="fas fa-edit" aria-hidden="true"></i>
+                        <h3 class="jost_font">Writing</h3>
+                    </div>
+                    <p>SEOに欠かせない良質なコンテンツ設計が得意です。
+                        キーワードからユーザーニーズを考え、Webサイトに必要なコンテンツのご提案～具体的な構成案作成まで行います。</p>
+                    <dl class="skill_box_point">
+                        <dt>構成案作成</dt>
+                        <dd>歴4年　★★★★☆</dd>
+                        <dt>ライティング</dt>
+                        <dd>歴3年　★★★☆☆</dd>
+                        <dt>校正・編集</dt>
+                        <dd>歴4年　★★★☆☆</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="skill_container">
+                <div class="skill_box">
+                    <div class="skill_box_heading">
+                        <i class="fas fa-image" aria-hidden="true"></i>
+                        <h3 class="jost_font">Banner production</h3>
+                    </div>
+                    <p>バナーやアイキャッチなどの制作が得意です。
+                        オウンドメディア運営ではアイキャッチ画像の制作を担当しています。制作実績はページ下部の「<a class="wrapper_link"
+                            href="#works">Works</a>」をご覧ください。</p>
+                    <dl class="skill_box_point">
+                        <dt>Photoshop</dt>
+                        <dd>歴3年　★★★☆☆</dd>
+                        <dt>Illustrator</dt>
+                        <dd>歴1年未満　★☆☆☆☆</dd>
+                    </dl>
+                </div>
+                <div class="skill_box">
+                    <div class="skill_box_heading">
+                        <i class="fas fa-code" aria-hidden="true"></i>
+                        <h3 class="jost_font">Coding</h3>
+                    </div>
+                    <p>HTML / CSS / JQueryを使用したWebサイト制作が可能です。制作実績はページ下部の「<a class="wrapper_link"
+                            href="#works">Works</a>」をご覧ください。</p>
+                    <dl class="skill_box_point">
+                        <dt>HTML</dt>
+                        <dd>歴1年未満　★★☆☆☆</dd>
+                        <dt>CSS</dt>
+                        <dd>歴1年未満　★★☆☆☆</dd>
+                        <dt>JQuery</dt>
+                        <dd>歴1年未満　★★☆☆☆</dd>
+                        <dt>JavaScript</dt>
+                        <dd>歴1年未満　★☆☆☆☆</dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+        <!-- works -->
+        <section class="common_wrapper">
+            <h2 id="works" class="show slide-bottom jost_font">Works</h2>
+            <div class="works_container">
+                <div class="works_box">
+                    <a href=""><img src="./images/works1.jpg" alt=""></a>
+                    <h3>結婚式場サイト（架空）</h3>
+                    <div class="works_desc">
+                        <p>ウェブサイト</p>
+                        <p><span class="txt_accent">スクール課題</span></p>
+                    </div>
+                </div>
+                <div class="works_box">
+                    <div class="show_more">
+                        <a class="wrapper_link" href="#"><i class="fas fa-window-restore"></i><span>
+                                View Site</span>(準備中)</a>
+                    </div>
+                    <p>
+                        「ここで結婚式を挙げてみたい！」と思ってもらい、お問い合わせ（式場見学）に繋げることを目的とし、結婚式のプラン内容や会場の様子を分かりやすく伝えられるサイトにしました。
+                        女性がメインターゲットになることと、「結婚式」というセレモニーであることから、ビビッドな原色を使ったポップな印象よりも、彩度が明るすぎないトーンの色を使い、綺麗さ・上品さのある洗練されたデザインになるようまとめています。
+                    </p>
+                    <div class="box_accent">
+                        <h4>担当業務</h4>
+                    </div>
+                    <p>
+                        企画/サイトマップ・ワイヤーフレーム作成/デザインカンプ作成/コーディング
+                    </p>
+                </div>
+            </div>
+            <div class="works_container">
+                <div class="works_box">
+                    <img src="./images/works2.jpg" alt="">
+                    <h3>ポートフォリオサイト</h3>
+                    <div class="works_desc">
+                        <p>ウェブサイト</p>
+                        <p><span class="txt_accent">自主制作</span></p>
+                    </div>
+                </div>
+                <div class="works_box">
+                    <div class="show_more">
+                        <a class="wrapper_link" href="#"><i class="fas fa-window-restore"></i><span>
+                                View Site</span></a>
+                    </div>
+                    <p>
+                        本サイトです。自身の経歴や強み、制作実績やスキルなどを伝えるために制作しました。スキルはどの程度のレベルなのかが客観的に分かるよう、星マークで表しています。ブルーをアクセントカラーに、シンプルなデザインで、流れるようにストレスなく読める設計を意識しました。
+                    </p>
+                    <div class="box_accent">
+                        <h4>担当業務</h4>
+                    </div>
+                    <p>
+                        企画/サイトマップ・ワイヤーフレーム作成/デザインカンプ作成/コーディング
+                    </p>
+                </div>
+            </div>
+            <div class="works_container">
+                <div class="works_box">
+                    <img src="./images/works3.jpg" alt="">
+                    <h3>オウンドメディアのアイキャッチ制作</h3>
+                    <div class="works_desc">
+                        <p>アイキャッチ制作</p>
+                        <p><span class="txt_accent">業務</span></p>
+                    </div>
+                </div>
+                <div class="works_box">
+                    <p>
+                        オウンドメディアに掲載する記事のアイキャッチ制作を担当しています。使用ツールはPhotoshopです。使用するイラストや配色を揃え、メディア全体に統一感が出るよう心がけています。
+                    </p>
+                    <div class="box_accent">
+                        <h4>担当業務</h4>
+                    </div>
+                    <p>
+                        アイキャッチ制作（使用ツール：Photoshop）
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section class="common_wrapper">
+            <h2 id="contact" class="show slide-bottom jost_font">Contact</h2>
+            <div class="contact_container">
+                <iframe class="pc_contact"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSd0HZV9QvGhWdMXdKYHEcAGIzhFqo-wg1T4Pcq9m7uiMArMxw/viewform?embedded=true"
+                    width="700" height="680" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+                <iframe class="sp_contact"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSd0HZV9QvGhWdMXdKYHEcAGIzhFqo-wg1T4Pcq9m7uiMArMxw/viewform?embedded=true"
+                    width="400" height="677" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+            </div>
+        </section>
+        <!-- pagetop scroll -->
+        <a class="pagetop" href="#">
+            <div class="pagetop__arrow"></div>
+        </a>
+    </main>
+    <!-- footer -->
+    <footer>
+        <section>
+            <div class="footer_wrapper">
+                <div>
+                    <img src="./images/logo.svg" alt="">
+                </div>
+                <nav>
+                    <ul class="fotter_nav_container">
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="copy">&copy; example, All Rights Reserved.</p>
+        </section>
+    </footer>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="./js/slide-bottom.js"></script>
+</body>
+
+</html>
